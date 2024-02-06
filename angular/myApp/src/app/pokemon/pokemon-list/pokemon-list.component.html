@@ -1,0 +1,16 @@
+<app-pokemon-details *ngFor = "let person of array" [detail] = "person"></app-pokemon-details>
+<table>
+  <thead>
+    <th>Index</th>
+    <th>Name</th>
+    <th>Age</th>
+  </thead>
+  <tbody>
+      
+      <tr *ngFor = "let person of array; let i = index">
+        <td>{{ i }}</td>
+        <td>{{ person.name }}</td>
+        <td>{{ person.age }}</td>
+      </tr>
+  </tbody>
+</table>
