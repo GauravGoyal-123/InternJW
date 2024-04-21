@@ -68,6 +68,50 @@ li a {
     font-size: 25px;
     padding: 15px auto;
 }
+
+a:hover {
+    color : white;
+    border: 0px;
+    text-decoration: none;
+}
+
+form {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 97%;
+    text-align: center;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  #login-btn, #register-btn {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  button:hover {
+    border-color: white;
+  }
+
 .title {
     text-align: center;
     font-size: 80px;
@@ -81,6 +125,10 @@ li a {
 
 i {
     color: white;
+}
+#toggle-form11, #toggle-form21 {
+    display: flex;
+    justify-content: center;
 }
 .audio {
     display: flex;

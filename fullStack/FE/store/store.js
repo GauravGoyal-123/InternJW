@@ -97,7 +97,7 @@ const fetchData = async () => {
             let foot = document.createElement('div');
             let p = document.createElement('p');
             foot.className = "div3"
-            p.textContent = arr[i].cost;
+            p.textContent = "$" + arr[i].cost;
             foot.appendChild(p);
             let btn = document.createElement('button');
             btn.type = "submit";
@@ -129,7 +129,7 @@ const fetchData = async () => {
             let foot = document.createElement('div');
             let p = document.createElement('p');
             foot.className = "div3"
-            p.textContent = arr2[i].cost;
+            p.textContent = "$" + arr2[i].cost;
             foot.appendChild(p);
             let btn = document.createElement('button');
             btn.type = "submit";

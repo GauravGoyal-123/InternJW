@@ -1,0 +1,25 @@
+
+POST http://localhost:3000/user/signup
+Content-Type: application/json
+
+{
+    "name" : "gaurav",
+    "email" : "example@example.com",
+    "phone" : "1234567890",
+    "password" : "qwerty"  
+}
+
+###
+
+POST http://localhost:3000/user/login
+Content-Type: application/json
+
+{
+    "email" : "example@example.com",
+    "password" : "qwerty"  
+}
+
+###
+
+GET http://localhost:3000/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImV4YW1wbGVAZXhhbXBsZS5jb20iLCJuYW1lIjoiZ2F1cmF2IiwiaWF0IjoxNzA3NTgxODQwfQ.xy6eZimVUgwnWfm4TZ3yC9f2MiP3jw6mBVRMg3nowUU

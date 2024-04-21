@@ -77,6 +77,8 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 
+
+
 // let play = true;
 
 
@@ -107,3 +109,4 @@ document.addEventListener("DOMContentLoaded", function() {
 //     // document.getElementById("pauseButton").addEventListener("click", pauseAudio);
 //   });
   
+
